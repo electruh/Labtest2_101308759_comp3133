@@ -1,0 +1,46 @@
+h1 {
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.details {
+  margin: 0 50px;
+}
+
+.content {
+  display: flex;
+  padding: 15px;
+}
+
+.img {
+  padding: 10px;
+
+}
+
+.img img {
+  max-width: 700px; /* Adjust the width as needed */
+  height: 400px;
+}
+
+.details-table {
+  flex: 1; /* Expand to fill remaining space */
+  margin-left: 20px; /* Add some space between image and details */
+}
+
+.details-table h3 {
+  color: darkred;
+  margin-top: 0; /* Remove top margin for consistency */
+}
+
+.details-table p {
+  margin: 5px 0; /* Adjust spacing between paragraphs */
+}
+
+.details-table a {
+  text-decoration: none;
+  color: black;
+}
+
+.details-table a:hover {
+  color: blue; /* Change color on hover */
+}

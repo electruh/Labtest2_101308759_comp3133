@@ -1,0 +1,40 @@
+.space-x-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.space-x-item {
+  flex-basis: calc(30.00% - 0px);
+  margin: 20px;
+  cursor: pointer;
+  box-sizing: border-box;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.space-x-item .example-card {
+  width: 100%;
+}
+
+#title {
+  font-size: 24px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+#year{
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+#pic {
+  padding-right: 10px;
+}
+
+#details {
+  font-size: 16px;
+  text-align: justify;
+  padding-top: 20px;
+}
